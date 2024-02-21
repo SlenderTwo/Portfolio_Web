@@ -32,6 +32,8 @@ header {
   }
 body{
     background-color:  #F6F3EA;
+    font-family: Arial, sans-serif;
+
     /* font-family: "Lucida Console", "Courier New", monospace; */
 }
 .BannerTITLE{
