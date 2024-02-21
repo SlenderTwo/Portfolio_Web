@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #F6F3EA; /* Color de fondo para toda la página */
+  color: #000; /* Color de texto negro */
+}
+
+header {
+  background-color: #F6F3EA;
+  color: #000; /* Color de texto negro */
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex: 1;
+}
+
+nav a {
+  color: #000; /* Color de texto negro */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav1 {
+  justify-content: left;
+}
+
+.nav2 {
+  justify-content: right;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  flex-grow: 1;
+}
+
+.profile-image {
+  width: 600px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-description {
+  max-width: 600px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-left: 20px;
+}
+
+.footer {
+  background-color: #F6F3EA;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.contact-button:hover {
+  background-color: #333;
+}

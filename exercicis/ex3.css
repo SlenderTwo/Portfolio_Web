@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Cedarville;
+    src: url(CedarvilleCursive-Regular.ttf) ;
+}
+
+.TitolP{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 50px solid black;
+    font-family:fantasy;
+}
+h1,h2,h3{
+    font-family:fantasy;
+
+}
+.Banner{    /*Banner de la pagina*/
+    margin-left: 1%;
+    margin-right: 0.7%;
+    position: relative;
+    display: inline-block;
+}
+.BannerTitle{ /*Titulo Situado en el Banner*/
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    font-size: 100%;
+    color: black;  
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 38%;
+    overflow: auto;
+} 
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 12px;
+    text-decoration: none;
+} 
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}  
+  
+#Historia{
+    text-align: center;
+}
+.Description{
+    margin-left: 25%;
+    height: 50%;
+    width: 50%;
+    text-align: justify;
+    columns: 2;
+}
+
+#Videos{
+    text-align: center;
+}
+.Videos{
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 1%;
+    height: 315;
+    width: 560;
+}
+.Videos iframe {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#Images360{
+    text-align: center;
+}
+#Images{
+    text-align: center;
+}
+.galeria{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.galeria img{
+    max-width: 35%;
+    max-height: fit-content;
+    padding: 1rem;
+}
+  
+#Localitzacio{
+    text-align: center;
+}
+.Lloc{
+    text-align: center;
+}
+.Lloc iframe{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#Info{
+    text-align: center;
+}
+.Informació{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+    border: 50px solid black;
+    font-family:fantasy;
+}
+@media screen and (min-width:200px) and (max-width: 600px)  {
+   
+    .Description{
+        margin-left: 30%;
+        height: 50%;
+        width: 50%;
+        text-align: justify;
+        columns: 1;
+    }
+    ul {
+        text-align: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 23%;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 37%;
+        overflow: auto;
+    } 
+    li a {
+        display: block;
+        color: #000;
+        padding: 8px 12px;
+        text-decoration: none;
+    } 
+    li a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
+    li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }  
+    .Videos{
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 1%;
+        height: 315;
+        width: 560;
+        margin-left: 15%;
+    }
+}

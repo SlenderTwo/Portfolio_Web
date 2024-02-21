@@ -1,0 +1,11 @@
+Model Information:
+* title:	Geisha Mask
+* source:	https://sketchfab.com/3d-models/geisha-mask-0279c00c98d1475da474c53f17f3747b
+* author:	riceart (https://sketchfab.com/riceart)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Geisha Mask" (https://sketchfab.com/3d-models/geisha-mask-0279c00c98d1475da474c53f17f3747b) by riceart (https://sketchfab.com/riceart) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

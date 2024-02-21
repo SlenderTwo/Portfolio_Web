@@ -1,0 +1,25 @@
+.title{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.grid{
+    text-align: center;
+}
+
+.sc{
+    text-align: center;
+}
+
+.timer{
+    text-align: center;
+}
+
+.si{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}

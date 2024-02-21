@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ei.css"><!--Link to the css document-->
+    <title>JavaScript Quiz JonathanT</title>
+</head>
+<body>
+  
+    <header>
+      <h1>Javascript Quiz</h1>
+    </header>
+    <div class="container">
+      <div id="quiz-container">
+        <p>A continuación, encontrarás una serie de preguntas sobre JavaScript. </p>
+        <p> Tienes un tiempo límite de 2 minutos para completar el cuestionario. </p>
+        <p>¡Buena suerte!</p>
+        <button id="start-btn">Iniciar el cuestionario</button>
+      </div>
+      <div id="question-container" style="display: none;">
+        <div class="timer">Tiempo restante: <span id="countdown">120</span> segundos</div>
+        <div class="question">
+          <img id="question-image" src="" alt="Question Image">
+          <h2 id="question"></h2>
+          <ul class="choices">
+            <li>
+              <input type="radio" id="choice1" name="choice" value="0">
+              <label for="choice1" id="choice1-text"></label>
+            </li>
+            <li>
+              <input type="radio" id="choice2" name="choice" value="1">
+              <label for="choice2" id="choice2-text"></label>
+            </li>
+            <li>
+              <input type="radio" id="choice3" name="choice" value="2">
+              <label for="choice3" id="choice3-text"></label>
+            </li>
+          </ul>
+        </div>
+        <button id="next-btn" style="display: none;">Siguiente pregunta</button>
+      </div>
+      <div id="result-container" style="display: none;">
+        <h2>¡Cuestionario completado!</h2>
+        <p>Preguntas respondidas: <span id="total-questions"></span></p>
+        <p>Respuestas correctas: <span id="correct-answers"></span></p>
+        <p>Puntuación total: <span id="score"></span></p>
+        <button id="restart-btn">Reiniciar cuestionario</button>
+      </div>
+    </div>
+    <script src="ei.js"></script>
+</body>
+</html>

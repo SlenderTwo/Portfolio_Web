@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cyberpunk Apartment
+* source:	https://sketchfab.com/3d-models/cyberpunk-apartment-0783068ec51d403da4cff77e9ab76084
+* author:	Jiaxing (https://sketchfab.com/saitoyang)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cyberpunk Apartment" (https://sketchfab.com/3d-models/cyberpunk-apartment-0783068ec51d403da4cff77e9ab76084) by Jiaxing (https://sketchfab.com/saitoyang) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

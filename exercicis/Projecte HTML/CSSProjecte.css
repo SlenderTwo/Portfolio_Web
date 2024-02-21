@@ -1,0 +1,239 @@
+@font-face {
+  font-family: Cedarville;
+  src:  url(CedarvilleCursive-Regular.ttf) ;
+}
+
+/*Parte  Comun*/
+
+body{
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+Header{
+  height: 15%;
+  width: 100%;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  text-align: center;
+  font-family: Cedarville;
+  font-size: 50px;
+  color:red;
+}
+table{
+display: table;
+margin: auto;
+}
+
+footer{
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Menu de navegació de las 4 paginas*/
+
+nav{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  flex-direction: row;
+  margin-top: 1%;
+  text-align: center;
+}
+nav.principal ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    align-self: center;
+    list-style: none;
+    color: white;
+}
+
+nav.principal ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+nav.principal ul li a:hover {
+    color: orange;
+}
+
+/*Imagenes derecha e izquierda Pagina 1, pagina 2 i pagina 3*/
+
+.imgIzquierda {
+  border-radius: 8px;
+  width: 100%;
+  height:auto;
+  object-fit: cover;
+
+}
+
+.imgDerecha{
+  border-radius: 8px;
+  width: 100%;
+  height:auto;
+  object-fit: cover;
+}
+
+.IndexIzquierda{
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: 0%;
+  background: white;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  font-size: 20px;
+}
+
+.IndexDerecha{
+  display:flex;
+  flex-direction: column;
+  width: 10%;
+  height: 100%;
+  background: white;
+  padding-bottom:1%;
+  padding-right: 1%;
+  font-size: 20px;
+}
+.IndexArriba{
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  height: 100%;
+  background: white;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  font-size: 20px;
+}
+
+.IndexAbajo{
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  height: 100%;
+  background: white;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  font-size: 20px;
+}
+
+.IndexQuartaPagina{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  font-size: 20px;
+}
+
+/*Sections de todas las paginas*/
+
+.SectionIndex{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 90%;
+
+
+}
+.SectionIndex2{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 90%;
+  align-self: center;
+  padding-top: 1%;
+}
+
+.SectionPrimeraPagina{
+  display: flex;
+  height: 90%;
+  width: 100%;
+
+
+}
+
+.SectionSegonaPagina{
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+}
+
+.SectionTerceraPagina{
+  display: flex;
+}
+
+/*Articulos*/
+
+.PaginesArticle{
+  height: 100%;
+  width: 80%;
+
+}
+/*Videos*/
+
+.IndexVideo{
+  align-self: center;
+  padding-top: 1%;
+  border-width: 0;
+}
+
+/*Link Redes Sociales*/
+.sticky-container{
+    display: flex;
+    justify-content: center;
+    padding:0px;
+    margin:0px;
+    align-self: center;
+    bottom:1%;
+    left:45%;
+    width:25%;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:none;
+}
+.sticky{
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  align-self: center;
+  padding-left: 0%
+
+}

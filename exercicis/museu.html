@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercici J JonathanT</title>
+
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script>
+        AFRAME.registerComponent("mylink", {
+        init: function() {  
+        this.el.addEventListener("click", (e) => {              
+            window.location = this.data.href;      
+          })
+        }
+      })
+    </script>
+
+  </head>
+  <body>
+  <a-scene cursor="rayOrigin: mouse">
+    <a-assets>
+      <img id="imgSortida" src="assets/EXvIVRbXkAICTKq.jpg" >
+      <img id="imgFantasma" src="assets/ghlogo.svg" >
+      <img id="imgCasa" src="assets/cyber.jpg" >
+      <a-asset-item id="dracula" src="assets/ghost_in_the_shell_geisha_mask/scene.gltf"></a-asset-item>
+      <a-asset-item id="dracula2" src="assets/geisha_mask/scene.gltf"></a-asset-item>
+
+    </a-assets>
+  
+    <a-entity camera look-controls wasd-controls="true">
+    <a-entity cursor="fuse: true; fuseTimeout: 2000"
+          position="0 0 -1"
+          geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+          material="color: red; shader: flat"
+          animation="property: components.material.material.color;
+                type: color;
+                to: white;
+                dur: 1000;
+                  dir: alternate;
+                  loop: true">
+      </a-entity>
+    </a-entity>
+
+   
+   
+      <a-sky src="#imgCasa"></a-sky>
+      <a-sphere position="5 2 -5" radius="1"  src="#imgFantasma"
+                animation="property: rotation; dur: 10000;
+                      to: 0 360 0; loop: true">          
+       </a-sphere>
+       <a-entity gltf-model="#dracula" position="0  2 -5" scale="2 2 2"
+                  animation="property: position; dur: 2000; from: 0 2 -5; to: 0 0 -5; dir: alternate; loop: true">        
+        </a-entity>
+        <a-entity gltf-model="#dracula2" position="-3 2 -5" scale="0.5 0.5 0.5"
+                  animation="property: position; dur: 2000; from: -3 2 -1; to: -3 0 -5; dir: alternate; loop: true" rotation="0 225 0">
+        </a-entity>
+      <a-plane position="-1.5 0 1.5" src="#imgSortida" rotation="0 150 0"  transparent="true" mylink="href: https://twitter.com/listocomics/status/1259820800712024066"></a-plane>
+    </a-scene>
+  </body>
+</html>

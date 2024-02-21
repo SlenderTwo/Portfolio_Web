@@ -1,0 +1,85 @@
+body{   
+    background: #feccb1; 
+    background: -moz-linear-gradient(top,  #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%);
+    background: -webkit-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); 
+    background: linear-gradient(to bottom,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); 
+}
+.Banner{    /*Banner de la pagina*/
+    margin-left: 1%;
+    margin-right: 0.7%;
+    position: relative;
+    display: inline-block;
+}
+.Title{ /*Titulo Situado en el Banner*/
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    font-size: 500%;
+    color: black;  
+}
+.Menu{  /*Menu situado en el body*/
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-style: dashed;
+    margin: 1%;
+    margin-right: 5%;
+    text-align: left;
+    width: 10%;
+}
+.Menu2{ /*Menu situado en el body*/
+    color: black;
+    text-decoration: none;
+    margin-top: 3%;
+    text-align: left;
+    width: 10%;
+}
+.ImageGroup{    /*Imagenes del grupo despues del menu*/
+    width: 100%;
+    height: 20%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: row;
+    vertical-align: baseline ;
+}
+.Group{ /*Listas de los componentes del grupo y los instrumentos*/
+    display: flex;
+    flex-direction: row;
+}
+.Banner2{   /*Menu y pista de audio juntos*/
+    display: flex;
+    flex-direction: row;
+}
+.Albums{   /*Tabla con los albumes*/
+    border-style: solid;
+    margin-right: 10%;
+    border-spacing:  10%;
+
+    margin-left: 10%;
+}   
+table,tr,th,td {    /*Bordes de la tabla con los albunes*/
+    width: 80%;
+    border: 1px solid #000;
+    text-align: center;
+}
+.Video{ /*Tabla con los 6 videos de youyube */
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 1%;
+    height:315; 
+    width:560;
+}
+.Map{   /*Mapa de donde es el grupo */
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.Description{   /*Descripcion del grupo al final de la pagina */
+    margin-left: 15% ;
+    margin-right: 15%;
+    text-align: left;
+}
+footer{ /*Copyright*/
+    text-align: center;
+}

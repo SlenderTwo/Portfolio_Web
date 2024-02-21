@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6F3EA; /* Color de fondo para toda la página */
+    color: #000; /* Color de texto negro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F6F3EA;
+    color: #000; /* Color de texto negro */
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex: 1;
+  }
+  
+  nav a {
+    color: #000; /* Color de texto negro */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .nav1 {
+    justify-content: left;
+  }
+  
+  .nav2 {
+    justify-content: right;
+  }
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}

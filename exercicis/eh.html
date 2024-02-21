@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="eh.js" charset="utf-8"></script><!--Link to the JavaScript document-->
+  <title>Jonathan Tabares Algaba</title>
+</head>
+<body>
+  <h1>Exercici H: Convertir farenheit a Celsius i al revés</h1>
+  
+  <label for="celsius">Temperatura (º Celsius):</label>
+  <input type="text" id="celsius">
+  
+  <br>
+  
+  <input type="radio" id="kelvin" name="unit" value="kelvin" checked>
+  <label for="kelvin">Kelvin</label>
+  
+  <input type="radio" id="fahrenheit" name="unit" value="fahrenheit">
+  <label for="fahrenheit">Fahrenheit</label>
+  
+  <br><br>
+  
+  <button onclick="convertTemperature()">Convertir</button>
+  
+  <br><br>
+  
+  <label for="result">Resultat:</label>
+  <input type="text" id="result" readonly>
+</body>
+</html>

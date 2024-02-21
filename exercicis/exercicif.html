@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="exercicif.css"><!--Link to the css document-->
+    <script type="text/javascript" src="exercicif.js" charset="utf-8"></script><!--Link to the JavaScript document-->
+    <title>Exercici G: Whac-A-Mole</title>
+
+</head>
+<body>
+    <h1 class="title">Whac-A-Mole</h1><!--Title of the page-->
+    <div class="si">
+        <h2 class="timer">Time:  </h2> <!--Timer-->
+        <h2 id="time" class="timer"> 0</h2>
+    </div>
+
+
+    <div class="grid"><!--Topo Game-->
+        <img id="1" class="square" onclick="hitTopo(this.id)" src="images/topoNo.jpg" alt="">
+        <img id="2" class="square" onclick="hitTopo(this.id)" src="images/topoNo.jpg" alt="">
+        <img id="3" class="square" onclick="hitTopo(this.id)" src="images/topoNo.jpg" alt="">
+    </div>
+    <div class="grid">
+        <img id="4" class="square" onclick="hitTopo(this.id)" src="images/topoNo.jpg" alt="">
+        <img id="5" class="square" onclick="hitTopo(this.id)" src="images/topoNo.jpg" alt="">
+        <img id="6" class="square" onclick="hitTopo(this.id)" src="images/topoNo.jpg" alt="">
+    </div>
+        <div class="grid">   
+        <img id="7" class="square" onclick="hitTopo(this.id)" src="images/topoNo.jpg" alt="">
+        <img id="8" class="square" onclick="hitTopo(this.id)" src="images/topoNo.jpg" alt="">
+        <img id="9" class="square" onclick="hitTopo(this.id)" src="images/topoNo.jpg" alt="">
+    </div>
+    
+    <div class="si">
+        <h2 class="sc">Score: </h2> <!--Score of the player-->
+        <h2 id="score" class="sc">0</h2>    
+    </div>
+
+    <footer>
+        <p>Author: Jonathan Tabares Algaba</p>
+        <p>Professor: Sergi Gotarra</p>
+    </footer>
+</body>
+</html>

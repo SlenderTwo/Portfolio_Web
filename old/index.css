@@ -1,0 +1,419 @@
+body{
+    background-color:  #031d40;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.BannerTITLE{
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.Title{
+    margin-left: 14%;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.TitleD{
+    color:white;
+    margin-left: 14%;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.descarga{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 15%;
+    margin-right: 1%;     
+    font-family: "Lucida Console", "Courier New", monospace;  
+
+}
+.dow{
+    font-size: 17px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    transition-duration: 0.4s;
+    background-color: black;
+    color: white;
+    border: 2px solid #555555;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.dow:hover{
+    background-color: #555555;
+    color: white;
+}
+.dow:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.About,.HTMLProject,.HTMLExercices{
+    margin-left: 15%;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.HomePage{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 3%;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.Home1{
+    margin-right: 10%;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.Home2{
+    margin-right: 10%;
+}
+.Home2img{
+    width:250px;
+    height:250px;
+    border-radius: 60%;
+    text-shadow: 10%;
+}
+.imagep{
+    border-radius: 10px;
+}
+a:link, a:visited, a:active,.cont {
+    text-decoration:none;
+    color:white;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+/* Menu */
+.sidebar-nav {
+    font-size: 125%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    right: 1;
+    padding-right: 1%;
+    bottom: 1%;
+    background-color: transparent;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 1%;
+}
+.rs-sidenav-subtle {
+    background-color: transparent!important;
+}
+.rs-sidenav-subtle {
+    background-color:  #031d40;
+}
+.rs-sidenav-collapse-in {
+    width: 100%;
+}
+.rs-sidenav {
+    -webkit-transition: width .2s ease-in;
+    transition: width .2s ease-in;
+    width: 130px;
+}   
+
+/* Menus  */
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+/* Style the buttons inside the tab */
+.tab button {
+    background-color:  #031d40;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: black;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color:  #031d40;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/*Menu2*/
+.Menu2{
+    list-style-type: none;
+    margin:0;
+    padding-bottom: 3%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 100%;
+    right: 1;
+
+}
+
+.active {
+    float: left;
+    background-color: #333;
+
+}
+
+.active a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.active a:hover {
+    background-color: #111;
+}
+
+
+/*Menu de idioma*/
+/* Style tab links */
+.tablink2 {
+    /* background-color: #555;*/
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    background-color:  #031d40;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.tablink2:hover {
+    background-color: black;
+}
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent2 {
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    background-color:  #031d40;
+}
+.tabcontent2:hover{
+    background-color:  #031d40;
+}
+
+footer{
+    text-align: center;
+}
+.fot{
+    color: white;
+}
+.social{
+    height: 100px;
+    width: 100px;
+}
+
+.but{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    margin-top: 41%;
+
+}
+
+.bi1,.bi2,.bi3{
+    width:30px;
+    height:30px;
+    border: 5px solid transparent;
+    margin-bottom: 10%;
+}
+
+/*Galeria*/
+img {
+    vertical-align: middle;
+    border-radius: 10px;
+
+}
+  /* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+}
+  /* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}  
+  /* Next & previous buttons */
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}  
+  /* Position the "next button" to the right */
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover,.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+} 
+  /* Number text (1/3 etc) */
+.numbertext{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  /* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+  /* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+.active,.demo:hover {
+    opacity: 1;
+}
+
+@media screen and (min-width:200px) and (max-width: 600px)  {
+    #Spanish{
+        margin-left: 2%;
+    }
+    #English{
+        margin-left: 2%;
+    }
+    .tablink2 {
+        /* background-color: #555;*/
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        font-size: 17px;
+        width: 50%;
+
+    }
+    .HomePage{
+        display: flex;
+        flex-direction: column;
+    }
+    .Home2{
+        margin-right: 10%;
+    }
+    .Home2img{
+        width:150px;
+        height:150px;
+        border-radius: 60%;
+        text-shadow: 10%;
+        margin-left: 30%;
+    }
+
+    .sidebar-nav {
+        display: flex;
+        flex-direction: row;
+        right: 1;
+        top: 0%;
+        margin-bottom: 200%;
+        background-color: transparent;
+        font-family: "Lucida Console", "Courier New", monospace;
+        
+    }
+    .but{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 1%;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width: 800px)  {
+.HomePage{
+    margin-left: 10%;
+}
+.tablink2{
+    margin-left: 10%;
+}
+#Spanish{
+    margin-left: 7%;
+}
+#English{
+    margin-left: 7%;
+}
+.sidebar-nav {
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    right: 1;
+    bottom:0;
+    margin-bottom: 3%;
+    background-color: transparent;
+    font-family: "Lucida Console", "Courier New", monospace;
+    position: absolute;
+}
+.but{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 1%;
+}
+.Home2img{
+    width:150px;
+    height:150px;
+    border-radius: 60%;
+    text-shadow: 10%;
+    margin-left: 30%;
+}
+}

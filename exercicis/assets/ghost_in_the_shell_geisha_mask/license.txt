@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ghost in the Shell Geisha Mask
+* source:	https://sketchfab.com/3d-models/ghost-in-the-shell-geisha-mask-79df6677512249e9b98b898676182e1b
+* author:	naxete (https://sketchfab.com/naxete)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ghost in the Shell Geisha Mask" (https://sketchfab.com/3d-models/ghost-in-the-shell-geisha-mask-79df6677512249e9b98b898676182e1b) by naxete (https://sketchfab.com/naxete) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
