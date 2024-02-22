@@ -33,6 +33,8 @@ header {
 body{
     background-color:  #F6F3EA;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 
     /* font-family: "Lucida Console", "Courier New", monospace; */
 }
