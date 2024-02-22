@@ -41,6 +41,10 @@ nav a {
 .nav2 {
   justify-content: right;
 }
+.nav2 a img {
+  max-width: 30px; /* Define el ancho máximo de la imagen */
+  height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+}
 
 .main-content {
   display: flex;
